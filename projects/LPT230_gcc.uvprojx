@@ -325,10 +325,107 @@
               <FileType>1</FileType>
               <FilePath>..\src\app_main.c</FilePath>
             </File>
+            <File>
+              <FileName>appmain.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\appmain.h</FilePath>
+            </File>
+            <File>
+              <FileName>httpd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\httpd.c</FilePath>
+            </File>
+            <File>
+              <FileName>httpd.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\httpd.h</FilePath>
+            </File>
+            <File>
+              <FileName>user_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\user_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_flash.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\user_flash.h</FilePath>
+            </File>
+            <File>
+              <FileName>user_function.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\user_function.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_function.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\user_function.h</FilePath>
+            </File>
+            <File>
+              <FileName>user_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\user_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\user_gpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>user_mdns.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\user_mdns.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_mdns.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\user_mdns.h</FilePath>
+            </File>
+            <File>
+              <FileName>user_power.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\user_power.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_power.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\user_power.h</FilePath>
+            </File>
+            <File>
+              <FileName>user_rtc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\user_rtc.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_rtc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\user_rtc.h</FilePath>
+            </File>
+            <File>
+              <FileName>user_udp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\user_udp.c</FilePath>
+            </File>
+            <File>
+              <FileName>user_udp.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\user_udp.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>libs</GroupName>
+          <Files>
+            <File>
+              <FileName>cJSON.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\cJSON\cJSON.c</FilePath>
+            </File>
+            <File>
+              <FileName>cJSON.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\cJSON\cJSON.h</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
