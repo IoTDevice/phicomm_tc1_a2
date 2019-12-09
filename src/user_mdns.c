@@ -15,8 +15,8 @@ static struct mdns_service test_service1 = {
 	.domain   = "local",
 	.proto    = MDNS_PROTO_TCP,
 	.port     = 80,
-	.keyvals = "DynagteID=1234567890",
-	.kvlen = sizeof("DynagteID=1234567890")
+	.keyvals = "description=Web Server Demo",
+	.kvlen = sizeof("description=Web Server Demo")
 };
 
 USER_FUNC void user_mdns_init( void )
@@ -30,8 +30,8 @@ void USER_FUNC mdns_thread( void *arg )
 	{
 		msleep(50);
 	}
+	
 	hfnet_get_mac_address(module_mac);
 	mdns_start("local", module_mac);
-
 	mdns_announce_service(&test_service1, "STA");
 }

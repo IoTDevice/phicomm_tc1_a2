@@ -304,6 +304,15 @@ void HSF_API hfsys_start_watchdog(void);
  */
 void HSF_API hfsys_stop_watchdog(void);
 
+/**
+ * @brief get random number.
+ *
+ * @param[in] None
+ * @return[out] a random number
+ * @see None.
+ * @note None.
+ */
+unsigned int HSF_API hfsys_random(void);
 
 #ifdef __cplusplus
 }

@@ -14,6 +14,8 @@ extern "C" {
 #endif
 
 
+void HSF_IAPI hmac_sha1(unsigned char *key,int key_length,unsigned char *data,int data_length,unsigned char *digest);
+
 /**
  * @brief encrypt data with aes (ecb mode/128bit key).
  *

@@ -84,6 +84,17 @@ int HSF_API  hffile_userbin_read(uint32_t offset,char *data,int len);
  */
 int HSF_API hffile_userbin_zero(void);
 
+/**
+ * @brief write data to userbin,Internal use for socka mqtt config.
+ *
+ * @param[in] offset: the relative address of userbin, start from 0
+ *			 data: a pointer to data
+ *			 len: the len of data
+ * @return[out] the length of write success
+ * @see None.
+ * @note None.
+ */
+int  HSF_IAPI  hffile_user_write(uint32_t offset,char *data,int len);
 
 #ifdef __cplusplus
 }
