@@ -62,7 +62,8 @@ typedef struct
     RDA5991H_USER_DATA_FLAG_RF_CHANNELS | \
     RDA5991H_USER_DATA_FLAG_PHY | \
     RDA5991H_USER_DATA_FLAG_PHY_CHANNELS | \
-    RDA5991H_USER_DATA_FLAG_TX_POWER_OFFSET)))
+    RDA5991H_USER_DATA_FLAG_TX_POWER_OFFSET | \
+    RDA5991H_USER_DATA_FLAG_CAL)))
 
 #define RDA5991H_USER_DATA_IP_LENGTH 8
 
@@ -94,6 +95,7 @@ typedef struct
     wland_rf_channels_t rf_channels;
     wland_phy_t phy;
     wland_phy_channels_t phy_channels;
+    u32 cal_flag;
 }rda5991h_user_data;
 
 #define SECTOR_SIZE     4096

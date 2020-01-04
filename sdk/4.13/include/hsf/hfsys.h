@@ -314,6 +314,7 @@ void HSF_API hfsys_stop_watchdog(void);
  */
 unsigned int HSF_API hfsys_random(void);
 
+
 #ifdef __cplusplus
 }
 #endif

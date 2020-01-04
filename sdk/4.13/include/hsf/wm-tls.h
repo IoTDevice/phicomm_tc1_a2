@@ -37,6 +37,7 @@ typedef enum {
 	TLS_CHECK_CLIENT_CERT = 0x02,
 
 	/* TLS Client mode */
+	TLS_NO_SERVER_CERT = 0x00,
 	TLS_CHECK_SERVER_CERT = 0x04,
 } tls_session_flags_t;
 

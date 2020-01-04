@@ -157,6 +157,7 @@ extern int rda5981_enter_CE_MODE(unsigned char enable);
 extern int rda5981_set_data_rate(unsigned char mode, unsigned char rate);
 extern void rda5981_set_mode(unsigned char bgn_enable);// 1~bgn mode, 0~bg mode
 extern void rda5981_set_auth_timeout(unsigned char timeout_enable);
+extern void rda5981_set_ap_eapol_delay(unsigned int ms);
 typedef struct {
     char BSSID[ETH_ALEN];
     char SSID[32+1];

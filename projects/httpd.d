@@ -70,4 +70,5 @@ httpd.o: ../src/httpd.c ../sdk/4.13/include/mbed_config.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\string.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\time.h \
  c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\time.h \
- ../src/httpd.h
+ ../src/appmain.h ../src/httpd.h ../src/cJSON/cJSON.h \
+ ../src/user_function.h

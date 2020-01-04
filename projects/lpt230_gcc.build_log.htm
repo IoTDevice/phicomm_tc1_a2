@@ -28,19 +28,26 @@ Project File Date:  11/22/2019
 Rebuild target 'LPT230'
 assembling startup_LPBX3GCC.S...
 compiling user_mdns.c...
-compiling httpd.c...
-../src/httpd.c: In function 'httpd_init':
-../src/httpd.c(149): warning: implicit declaration of function 'hfhttpd_url_callback_register' [-Wimplicit-function-declaration]
-compiling user_flash.c...
-../src/user_flash.c(8): warning: 'upadateConfigData' defined but not used [-Wunused-function]
-compiling user_function.c...
-compiling app_main.c...
+../src/user_mdns.c(11): warning: 'txt_record' defined but not used [-Wunused-variable]
+ static char txt_record[] = "name=TC1_A2:model=com.iotserv.devices.phicomm_tc1_a1:mac=GHS00GG:id=GHS00GG";//max len is 255
 compiling user_gpio.c...
 ../src/user_gpio.c: In function 'key_timeout_handler':
 ../src/user_gpio.c(178): warning: implicit declaration of function 'user_function_cmd_received' [-Wimplicit-function-declaration]
    user_function_cmd_received(1,"{\"cmd\":\"device report\"}");
 ../src/user_gpio.c(146): warning: variable 'key_last' set but not used [-Wunused-but-set-variable]
 ../src/user_gpio.c(145): warning: unused variable 'key_trigger' [-Wunused-variable]
+compiling app_main.c...
+compiling user_flash.c...
+../src/user_flash.c(8): warning: 'upadateConfigData' defined but not used [-Wunused-function]
+compiling httpd.c...
+../src/httpd.c: In function 'switch_cbk':
+../src/httpd.c(206): warning: implicit declaration of function 'json_plug_analysis' [-Wimplicit-function-declaration]
+../src/httpd.c(203): warning: variable 'update_user_config_flag' set but not used [-Wunused-but-set-variable]
+../src/httpd.c: In function 'httpd_init':
+../src/httpd.c(238): warning: implicit declaration of function 'hfhttpd_url_callback_register' [-Wimplicit-function-declaration]
+../src/httpd.c: At top level:
+../src/httpd.c(41): warning: 'convert_ascii' defined but not used [-Wunused-function]
+compiling user_function.c...
 compiling user_power.c...
 compiling user_udp.c...
 ../src/user_udp.c: In function 'udp_thread':
@@ -52,14 +59,14 @@ compiling cJSON.c...
 linking...
 After Build - User command #1: ../tools/arm-none-eabi-objcopy -O binary ./lpt230_gcc.elf ./lpt230_gcc.bin
 After Build - User command #2: ../tools/LPB100_IMG_Tools.exe LPB230 lzma  ../tools/bootloader.bin lpt230_gcc.bin ./lpt230_gcc_image.bin ./lpt230_gcc_upgrade.bin
-".\lpt230_gcc.elf" - 0 Error(s), 8 Warning(s).
+".\lpt230_gcc.elf" - 0 Error(s), 12 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   C:\Users\Farry\Documents\KeilProject\LPx30-HSF_v4.13.20\projects\RTE
   C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:06
+Build Time Elapsed:  00:00:16
 </pre>
 </body>
 </html>

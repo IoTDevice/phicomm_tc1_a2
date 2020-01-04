@@ -11,7 +11,7 @@
 
 
 #define CONFIG_FLASH_SIZE_1MB
-
+//#define CONFIG_FLASH_SIZE_2MB
 
 #ifdef CONFIG_FLASH_SIZE_1MB
 

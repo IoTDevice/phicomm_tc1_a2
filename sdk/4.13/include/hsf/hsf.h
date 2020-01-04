@@ -78,11 +78,11 @@ typedef unsigned char           bool;
 #define GLOBAL_VER 				"4.13"
 
 #ifdef CONFIG_FLASH_SIZE_1MB
-#define GLOBAL_LVER				"24 (2019-09-24 10:00 1M)"
+#define GLOBAL_LVER				"26 (2019-12-17 19:00 1M)"
 #elif defined CONFIG_FLASH_SIZE_2MB
-#define GLOBAL_LVER				"24 (2019-09-24 10:00 2M)"
+#define GLOBAL_LVER				"26 (2019-12-17 19:00 2M)"
 #elif defined CONFIG_FLASH_SIZE_4MB
-#define GLOBAL_LVER				"24 (2019-09-24 10:00 4M)"
+#define GLOBAL_LVER				"26 (2019-12-17 19:00 4M)"
 #endif
 
 

@@ -6,8 +6,11 @@
 #include <stdint.h>
 #include <time.h>
 
+#include "appmain.h"
 #include "httpd.h"
 
+#include "cJSON/cJSON.h"
+#include "user_function.h"
 
 #define HFEASY_VERSION_MAJOR	0
 #define HFEASY_VERSION_MINOR	4
@@ -55,29 +58,61 @@ static void USER_FUNC convert_ascii(char *str)
 	*out = '\0';
 }
 
-int USER_FUNC httpd_arg_find(char *url, char *arg, char *val)
+int USER_FUNC httpd_arg_find(char *url,char *slot0,char *slot1,char *slot2,char *slot3,char *slot4,char *slot5)
 {
-	char *a, *s;
-	char buf[256];
-	
+	char *a;
+	char* zero = "0";
+	char* one = "1";
 	a = strchr(url, '?');
 	if (a == NULL)
-		return 0;
+		return 1;
 
-	strcpy(buf, a + 1);
-	convert_ascii(buf);
-	a = strtok(buf, "&");
-	while (a != NULL) {
-		s = strchr(a, '=');
-		if (s != NULL)
-			*s = '\0';
-		if (strcmp(arg, a) == 0) {
-			if (s == NULL || val == NULL)
-				return 2;
-			strcpy(val, s + 1);
-			return 1;
-		}
-		a = strtok(NULL, "&");
+	if (strstr(url, "slot0=0")){
+		strcpy(slot0,zero);
+	}else if (strstr(url, "slot0=1")) {
+		strcpy(slot0,one);
+	}else{
+		return 1;
+	}
+	
+	if (strstr(url, "slot1=0")){
+		strcpy(slot1,zero);
+	}else if (strstr(url, "slot1=1")) {
+		strcpy(slot1,one);
+	}else{
+		return 1;
+	}
+	
+	if (strstr(url, "slot2=0")){
+		strcpy(slot2,zero);
+	}else if (strstr(url, "slot2=1")) {
+		strcpy(slot2,one);
+	}else{
+		return 1;
+	}
+	
+	if (strstr(url, "slot3=0")){
+		strcpy(slot3,zero);
+	}else if (strstr(url, "slot3=1")) {
+		strcpy(slot3,one);
+	}else{
+		return 1;
+	}
+	
+	if (strstr(url, "slot4=0")){
+		strcpy(slot4,zero);
+	}else if (strstr(url, "slot4=1")) {
+		strcpy(slot4,one);
+	}else{
+		return 1;
+	}
+	
+	if (strstr(url, "slot5=0")){
+		strcpy(slot5,zero);
+	}else if (strstr(url, "slot5=1")) {
+		strcpy(slot5,one);
+	}else{
+		return 1;
 	}
 	return 0;
 }
@@ -142,6 +177,60 @@ void styles_cbk(char *url, char *rsp)
 	strcpy(rsp, css_page);
 }
 
+void switch_cbk(char *url, char *rsp)
+{
+	char slot0[10];
+	char slot1[10];
+	char slot2[10];
+	char slot3[10];
+	char slot4[10];
+	char slot5[10];
+	int ret = httpd_arg_find(url, slot0, slot1, slot2, slot3, slot4, slot5);
+	if (ret > 0){
+		strcpy(rsp, "ret > 0");
+		return;
+	}
+	
+  char *send_buf = (char *) malloc( strlen("{\"plug_0\":{\"on\":1},\"plug_1\":{\"on\":0},\"plug_2\":{\"on\":1},\"plug_3\":{\"on\":1},\"plug_4\":{\"on\":1},\"plug_5\":{\"on\":1}}") );
+  sprintf( send_buf, "{\"plug_0\":{\"on\":%s},\"plug_1\":{\"on\":%s},\"plug_2\":{\"on\":%s},\"plug_3\":{\"on\":%s},\"plug_4\":{\"on\":%s},\"plug_5\":{\"on\":%s}}", slot0, slot1, slot2, slot3, slot4, slot5 );
+
+	//strcpy(rsp, send_buf);
+	//return;
+
+  cJSON * pJsonRoot = cJSON_Parse( send_buf );
+  cJSON *json_send = cJSON_CreateObject( );
+  unsigned char i;
+  bool update_user_config_flag = false;
+  for ( i = 0; i < PLUG_NUM; i++ )
+  {
+      if ( json_plug_analysis(1, i, pJsonRoot, json_send ) )
+          update_user_config_flag = true;
+  }
+	
+	//free(slot0);
+  //free(slot1);
+  //free(slot2);
+  //free(slot3);
+  //free(slot4);
+  //free(slot5);
+	strcpy(rsp, send_buf);
+}
+
+void status_cbk(char *url, char *rsp)
+{
+	char *power_temp_buf = malloc( 16 );
+
+  sprintf( power_temp_buf, "%ld.%ld", power / 10, power % 10 );
+
+  char *send_buf = (char *) malloc( strlen("{\"slot0\":0,\"slot1\":0,\"slot2\":0,\"slot3\":0,\"slot4\":0,\"slot5\":0,\"power\":}") + strlen(power_temp_buf) );
+
+  sprintf( send_buf, "{\"slot0\":%d,\"slot1\":%d,\"slot2\":%d,\"slot3\":%d,\"slot4\":%d,\"slot5\":%d,\"power\":%s}"
+	,u_config.plug[0].on, u_config.plug[1].on, u_config.plug[2].on, u_config.plug[3].on, u_config.plug[4].on, u_config.plug[5].on,power_temp_buf );
+
+  free(power_temp_buf);
+	strcpy(rsp, send_buf);
+	free(send_buf);
+}
 
 void USER_FUNC httpd_init(void)
 {
@@ -150,4 +239,6 @@ void USER_FUNC httpd_init(void)
 		u_printf("error registering url callback\r\n");
 	
 	httpd_add_page("/styles.css", styles_cbk);
+	httpd_add_page("/switch", switch_cbk);
+	httpd_add_page("/status", status_cbk);
 }
