@@ -1,4 +1,57 @@
 # phicomm_tc1_a2
 
-#### 使用[汉枫SDK](http://www.hi-flying.com/download-center-1/software-development-kit-1/download-item-hf-lpx30-hsf-sdk-1mb-2mb)来开发的斐讯插排TC1 A2的第三方固件，基于https://github.com/linlyv/TC1_A2和https://github.com/a2633063/zTC1
+#### 使用[汉枫SDK](http://www.hi-flying.com/download-center-1/software-development-kit-1/download-item-hf-lpx30-hsf-sdk-1mb-2mb)来开发的斐讯插排TC1 A2的第三方固件，基于https://github.com/linlyv/TC1_A2 和 https://github.com/a2633063/zTC1
 #### 使用SDK版本为LPx30-HSF_v4.13.24
+
+## 使用方法(摘录自https://github.com/linlyv/TC1_A2)
+
+### 1.接线：
+
+把第10号引脚（复位引脚）接跟线出来，串口接第5（tx）和第6引脚(rx)，电源供电引线最好接5V（测试点）,烧录固件时不要接220V交流电
+
+通过串口工具连接到电脑，打开secureCRT软件，设置参数230400,8,none,1 ，连接上模块。
+
+<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/lpt230.jpg" width="540" >
+> 图1 要接线的点（用到的点）
+
+
+### 2.烧录固件
+
+按住板上的按键，另一只手把复位引线碰一下GND(测试点)，接着在1秒内按电脑上的空格键（鼠标光标要在接收窗口上）。
+
+看到有打印出Bootloader的信息，接着按照输入‘S’，再输入‘Y’,  点击菜单栏的"传输"(Transfer)，选择“发送Xmodem”，然后就选择XXX_gcc.bin文件，打开。
+
+等待传输完成即可。
+
+<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/step1.png" width="540">
+<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/step2.png" width="540">
+<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/step3.png" width="540">
+
+### 3.配网
+
+初次使用可以通过网页去配网：手机连接连接名为"HF-LPT230"的AP,然后用浏览器访问10.10.100.254  这个地址，需要登录，用户名和密码都是admin.
+
+在网页上输入要连接的WiFi SSID和密码,保存等待重启完成，模块就会自动连接你刚刚设置的WiFi网络。
+
+后续更改网络配置可以长按按键（要9秒左右），直到按键灯亮1秒后熄灭，松开按键，此时再按是没反应的，说明已经进入SmartLink配网模式，移步至release 下载hiflying-iots-android-smartlink-demo-7.0.3.apk进行配网。
+
+<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/web.png" width="540">
+
+### 4.app控制
+使用A1版的APP，发现局域网设备的方式添加设备[SmartControl_Android_MQTT](https://github.com/a2633063/SmartControl_Android_MQTT)。
+
+### 5.固件升级
+
+串口升级和web网页升级
+
+web网页升级:只需要访问模块的ip地址+iweb.html(例如：http://192.168.123.184/iweb.html),就可以打开升级页面，选择第一项Upgrade application，浏览文件选择“XXX_upgrade.bin”文件，点击Upload
+即可，传输成功会返回：Update successful !
+
+<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/webup.jpg" width="540">
+
+
+> 没有意外的应该是可以控制的，实时控制是可以的，但由于是UDP连接，有时APP控制不是很顺畅。
+> 还不能保存app设置的参数，像定时任务，插口名称都会掉电后丢失。
+> 我现在没有测试的设备了，因为一次OTA升级过程中卡死了，导致模块不能进BootLoader了！！！，暂时就只有局域网的APP控制了，可能问题也比较多。
+
+> 开发未完成，有已知的bug未解决, 不适合商用，千万不要在PDD上或转转上加价售卖烧录了此固件的排插，本人不承担他人使用本项目所造成的后果，所以请谨慎使用.
