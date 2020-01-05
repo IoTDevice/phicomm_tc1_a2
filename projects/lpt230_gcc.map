@@ -5766,7 +5766,7 @@ END GROUP
 LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
 LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtn.o
 
-.text           0x1800c000    0x7a8f0
+.text           0x1800c000    0x7a8e8
  *(.isr_vector)
  .isr_vector    0x1800c000       0x7c ./startup_lpbx3gcc.o
                 0x1800c000                __isr_vector
@@ -13306,909 +13306,909 @@ LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm
                 0x18077504      0x1f3 ./user_gpio.o
  *fill*         0x180776f7        0x1 
  .rodata.str1.4
-                0x180776f8       0xf2 ./user_mdns.o
-                                 0xf5 (size before relaxing)
- *fill*         0x180777ea        0x2 
+                0x180776f8       0xee ./user_mdns.o
+                                 0xf1 (size before relaxing)
+ *fill*         0x180777e6        0x2 
  .rodata.str1.4
-                0x180777ec       0xc8 ./user_rtc.o
+                0x180777e8       0xc8 ./user_rtc.o
                                 0x108 (size before relaxing)
  .rodata.str1.4
-                0x180778b4      0x10b ./user_udp.o
- *fill*         0x180779bf        0x1 
- .rodata        0x180779c0        0x7 ./cjson.o
- *fill*         0x180779c7        0x1 
+                0x180778b0      0x10b ./user_udp.o
+ *fill*         0x180779bb        0x1 
+ .rodata        0x180779bc        0x7 ./cjson.o
+ *fill*         0x180779c3        0x1 
  .rodata.str1.4
-                0x180779c8       0x43 ./cjson.o
+                0x180779c4       0x43 ./cjson.o
                                  0x47 (size before relaxing)
  .rodata.str1.1
-                0x18077a0b       0x3a ../sdk/4.13/libs\libLPBX3Kernel.a(hf_debug.o)
+                0x18077a07       0x3a ../sdk/4.13/libs\libLPBX3Kernel.a(hf_debug.o)
                                  0x40 (size before relaxing)
  .rodata.str1.1
-                0x18077a45      0x21d ../sdk/4.13/libs\libLPBX3Kernel.a(hfconfig.o)
+                0x18077a41      0x21d ../sdk/4.13/libs\libLPBX3Kernel.a(hfconfig.o)
                                 0x231 (size before relaxing)
- *fill*         0x18077c62        0x2 
+ *fill*         0x18077c5e        0x2 
  .rodata._ZZ14crc32_halfbyteE3lut
-                0x18077c64       0x40 ../sdk/4.13/libs\libLPBX3Kernel.a(hfconfig.o)
+                0x18077c60       0x40 ../sdk/4.13/libs\libLPBX3Kernel.a(hfconfig.o)
  .rodata._ZL13hffile_system
-                0x18077ca4       0x28 ../sdk/4.13/libs\libLPBX3Kernel.a(hffile.o)
+                0x18077ca0       0x28 ../sdk/4.13/libs\libLPBX3Kernel.a(hffile.o)
  .rodata.str1.1
-                0x18077ccc       0x7d ../sdk/4.13/libs\libLPBX3Kernel.a(hffile.o)
+                0x18077cc8       0x7d ../sdk/4.13/libs\libLPBX3Kernel.a(hffile.o)
  .rodata.str1.1
-                0x18077d49       0x43 ../sdk/4.13/libs\libLPBX3Kernel.a(hfflash.o)
+                0x18077d45       0x43 ../sdk/4.13/libs\libLPBX3Kernel.a(hfflash.o)
  .rodata.str1.1
-                0x18077d8c       0xd6 ../sdk/4.13/libs\libLPBX3Kernel.a(hfgpio.o)
+                0x18077d88       0xd6 ../sdk/4.13/libs\libLPBX3Kernel.a(hfgpio.o)
  .rodata._ZZ31hfgpio_configure_fpin_interruptE12__FUNCTION__
-                0x18077e62       0x20 ../sdk/4.13/libs\libLPBX3Kernel.a(hfgpio.o)
+                0x18077e5e       0x20 ../sdk/4.13/libs\libLPBX3Kernel.a(hfgpio.o)
  .rodata._ZL29hf_gpio_pid_to_cpid_map_table
-                0x18077e82       0x52 ../sdk/4.13/libs\libLPBX3Kernel.a(hfgpio.o)
+                0x18077e7e       0x52 ../sdk/4.13/libs\libLPBX3Kernel.a(hfgpio.o)
  .rodata.str1.1
-                0x18077ed4       0x2e ../sdk/4.13/libs\libLPBX3Kernel.a(hfmsgq.o)
+                0x18077ed0       0x2e ../sdk/4.13/libs\libLPBX3Kernel.a(hfmsgq.o)
                                  0x40 (size before relaxing)
  .rodata._ZZ13hfmsgq_createE12__FUNCTION__
-                0x18077f02        0xe ../sdk/4.13/libs\libLPBX3Kernel.a(hfmsgq.o)
+                0x18077efe        0xe ../sdk/4.13/libs\libLPBX3Kernel.a(hfmsgq.o)
  .rodata.str1.1
-                0x18077f10       0x3a ../sdk/4.13/libs\libLPBX3Kernel.a(hfntp.o)
+                0x18077f0c       0x3a ../sdk/4.13/libs\libLPBX3Kernel.a(hfntp.o)
  .rodata.str1.1
-                0x18077f4a      0x191 ../sdk/4.13/libs\libLPBX3Kernel.a(hfnet.o)
+                0x18077f46      0x191 ../sdk/4.13/libs\libLPBX3Kernel.a(hfnet.o)
                                 0x1c7 (size before relaxing)
  .rodata._ZZ10hfnet_initE12__FUNCTION__
-                0x180780db        0xb ../sdk/4.13/libs\libLPBX3Kernel.a(hfnet.o)
+                0x180780d7        0xb ../sdk/4.13/libs\libLPBX3Kernel.a(hfnet.o)
  .rodata.str1.1
-                0x180780e6      0x451 ../sdk/4.13/libs\libLPBX3Kernel.a(hfsmtaplk.o)
+                0x180780e2      0x451 ../sdk/4.13/libs\libLPBX3Kernel.a(hfsmtaplk.o)
                                 0x46c (size before relaxing)
- .rodata        0x18078537       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(hfsmtlk.o)
+ .rodata        0x18078533       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(hfsmtlk.o)
  .rodata.str1.1
-                0x18078549      0x372 ../sdk/4.13/libs\libLPBX3Kernel.a(hfsmtlk.o)
+                0x18078545      0x372 ../sdk/4.13/libs\libLPBX3Kernel.a(hfsmtlk.o)
                                 0x394 (size before relaxing)
  .rodata._ZL24d2d_probe_request_packet
-                0x180788bb       0x9a ../sdk/4.13/libs\libLPBX3Kernel.a(hfsmtlk.o)
+                0x180788b7       0x9a ../sdk/4.13/libs\libLPBX3Kernel.a(hfsmtlk.o)
  .rodata.str1.1
-                0x18078955       0x94 ../sdk/4.13/libs\libLPBX3Kernel.a(hfthread.o)
+                0x18078951       0x94 ../sdk/4.13/libs\libLPBX3Kernel.a(hfthread.o)
                                  0xba (size before relaxing)
  .rodata.str1.1
-                0x180789e9      0x101 ../sdk/4.13/libs\libLPBX3Kernel.a(hfsys.o)
+                0x180789e5      0x101 ../sdk/4.13/libs\libLPBX3Kernel.a(hfsys.o)
                                 0x11a (size before relaxing)
  .rodata.str1.1
-                0x18078aea        0xf ../sdk/4.13/libs\libLPBX3Kernel.a(hftimer.o)
+                0x18078ae6        0xf ../sdk/4.13/libs\libLPBX3Kernel.a(hftimer.o)
  .rodata.str1.1
-                0x18078af9       0x63 ../sdk/4.13/libs\libLPBX3Kernel.a(hfuart.o)
+                0x18078af5       0x63 ../sdk/4.13/libs\libLPBX3Kernel.a(hfuart.o)
                                  0x77 (size before relaxing)
  .rodata._ZZ11hfuart_openE12__FUNCTION__
-                0x18078b5c        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(hfuart.o)
+                0x18078b58        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(hfuart.o)
  .rodata.Base64
-                0x18078b68       0x41 ../sdk/4.13/libs\libLPBX3Kernel.a(web_login.o)
-                0x18078b68                Base64
+                0x18078b64       0x41 ../sdk/4.13/libs\libLPBX3Kernel.a(web_login.o)
+                0x18078b64                Base64
  .rodata.str1.1
-                0x18078ba9       0x96 ../sdk/4.13/libs\libLPBX3Kernel.a(web_login.o)
+                0x18078ba5       0x96 ../sdk/4.13/libs\libLPBX3Kernel.a(web_login.o)
  .rodata._ZZL32hfupdate_download_sysconfig_fileP11_HF_OTA_CTXE12__FUNCTION__
-                0x18078c3f       0x21 ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
+                0x18078c3b       0x21 ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
  .rodata._ZZL36hfupdate_send_ugrade_complete_packetP11_HF_OTA_CTXE12__FUNCTION__
-                0x18078c60       0x25 ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
+                0x18078c5c       0x25 ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
  .rodata.str1.1
-                0x18078c85      0x67b ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
+                0x18078c81      0x67b ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
                                 0x6b9 (size before relaxing)
  .rodata._ZZL25hfupdate_discovery_serverP11_HF_OTA_CTXE12__FUNCTION__
-                0x18079300       0x1a ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
+                0x180792fc       0x1a ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
  .rodata._ZZ22check_upgrade_image_okPiE12__FUNCTION__
-                0x1807931a       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
+                0x18079316       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
  .rodata._ZZ21hfupdate_auto_upgradeE12__FUNCTION__
-                0x18079331       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
+                0x1807932d       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(hfupdate.o)
  .rodata.str1.1
-                0x18079347      0x3d5 ../sdk/4.13/libs\libLPBX3Kernel.a(hfwifi.o)
+                0x18079343      0x3d5 ../sdk/4.13/libs\libLPBX3Kernel.a(hfwifi.o)
                                 0x3dc (size before relaxing)
  .rodata._ZZL37tcp_check_connect_and_wait_connectioniiE12__FUNCTION__
-                0x1807971c       0x26 ../sdk/4.13/libs\libLPBX3Kernel.a(httpclient.o)
+                0x18079718       0x26 ../sdk/4.13/libs\libLPBX3Kernel.a(httpclient.o)
  .rodata.str1.1
-                0x18079742      0xb93 ../sdk/4.13/libs\libLPBX3Kernel.a(httpclient.o)
+                0x1807973e      0xb93 ../sdk/4.13/libs\libLPBX3Kernel.a(httpclient.o)
                                 0xbd9 (size before relaxing)
  .rodata._ZZL17net_gethostbynamePKcPP7hostentE12__FUNCTION__
-                0x1807a2d5       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(httpclient.o)
- .rodata        0x1807a2e7        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(main.o)
+                0x1807a2d1       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(httpclient.o)
+ .rodata        0x1807a2e3        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(main.o)
  .rodata.str1.1
-                0x1807a2ed      0x3c8 ../sdk/4.13/libs\libLPBX3Kernel.a(main.o)
+                0x1807a2e9      0x3c8 ../sdk/4.13/libs\libLPBX3Kernel.a(main.o)
                                 0x3f0 (size before relaxing)
  .rodata._ZL8NULL_STR
-                0x1807a6b5        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(main.o)
+                0x1807a6b1        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(main.o)
  .rodata.data_success_html
-                0x1807a6bb       0xf9 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807a6b7       0xf9 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.data_400_html
-                0x1807a7b4       0x94 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807a7b0       0x94 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.data_404_html
-                0x1807a848       0x92 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807a844       0x92 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.http_head_js
-                0x1807a8da       0x90 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
-                0x1807a8da                http_head_js
+                0x1807a8d6       0x90 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807a8d6                http_head_js
  .rodata.data_403_html
-                0x1807a96a       0x92 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807a966       0x92 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.file_1M_html
-                0x1807a9fc       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807a9f8       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.__FUNCTION__.9113
-                0x1807aa10        0xa ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
- *fill*         0x1807aa1a        0x2 
+                0x1807aa0c        0xa ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+ *fill*         0x1807aa16        0x2 
  .rodata.file_405_html
-                0x1807aa1c       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807aa18       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.http_head_auth
-                0x1807aa30      0x161 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
-                0x1807aa30                http_head_auth
+                0x1807aa2c      0x161 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807aa2c                http_head_auth
  .rodata.__FUNCTION__.8893
-                0x1807ab91       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
- *fill*         0x1807aba2        0x2 
+                0x1807ab8d       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+ *fill*         0x1807ab9e        0x2 
  .rodata.file_success_html
-                0x1807aba4       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807aba0       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.data_2M_html
-                0x1807abb8      0x913 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
- *fill*         0x1807b4cb        0x1 
+                0x1807abb4      0x913 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+ *fill*         0x1807b4c7        0x1 
  .rodata.file_2M_html
-                0x1807b4cc       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807b4c8       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.file_403_html
-                0x1807b4e0       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807b4dc       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.data_405_html
-                0x1807b4f4       0x9b ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
- *fill*         0x1807b58f        0x1 
+                0x1807b4f0       0x9b ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+ *fill*         0x1807b58b        0x1 
  .rodata.file_500_html
-                0x1807b590       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807b58c       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.http_head_jpg
-                0x1807b5a4       0x8a ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
-                0x1807b5a4                http_head_jpg
+                0x1807b5a0       0x8a ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807b5a0                http_head_jpg
  .rodata.http_head_html_no_content_length
-                0x1807b62e       0x89 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
-                0x1807b62e                http_head_html_no_content_length
- *fill*         0x1807b6b7        0x1 
+                0x1807b62a       0x89 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807b62a                http_head_html_no_content_length
+ *fill*         0x1807b6b3        0x1 
  .rodata.file_404_html
-                0x1807b6b8       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807b6b4       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.data_500_html
-                0x1807b6cc       0x9e ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
- *fill*         0x1807b76a        0x2 
+                0x1807b6c8       0x9e ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+ *fill*         0x1807b766        0x2 
  .rodata.file_400_html
-                0x1807b76c       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807b768       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.http_head_css
-                0x1807b780       0x89 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
-                0x1807b780                http_head_css
+                0x1807b77c       0x89 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807b77c                http_head_css
  .rodata.data_1M_html
-                0x1807b809      0x66c ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807b805      0x66c ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.http_head_html_utf8
-                0x1807be75       0xa8 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
-                0x1807be75                http_head_html_utf8
+                0x1807be71       0xa8 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807be71                http_head_html_utf8
  .rodata.http_head_html
-                0x1807bf1d       0x99 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
-                0x1807bf1d                http_head_html
+                0x1807bf19       0x99 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807bf19                http_head_html
  .rodata.__FUNCTION__.9245
-                0x1807bfb6        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807bfb2        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
  .rodata.str1.1
-                0x1807bfc2      0xd04 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
+                0x1807bfbe      0xd04 ../sdk/4.13/libs\libLPBX3Kernel.a(httpd.o)
                                 0xe2f (size before relaxing)
  .rodata.str1.1
-                0x1807ccc6       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(mdns.o)
+                0x1807ccc2       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(mdns.o)
                                  0x1d (size before relaxing)
  .rodata.str1.1
-                0x1807ccdc       0x28 ../sdk/4.13/libs\libLPBX3Kernel.a(mdns_respond.o)
+                0x1807ccd8       0x28 ../sdk/4.13/libs\libLPBX3Kernel.a(mdns_respond.o)
                                  0x3d (size before relaxing)
  .rodata.str1.1
-                0x1807cd04       0x7e ../sdk/4.13/libs\libLPBX3Kernel.a(smartlinkv3.o)
+                0x1807cd00       0x7e ../sdk/4.13/libs\libLPBX3Kernel.a(smartlinkv3.o)
                                  0x9b (size before relaxing)
  .rodata.str1.1
-                0x1807cd82      0x117 ../sdk/4.13/libs\libLPBX3Kernel.a(smartlinkv7.o)
+                0x1807cd7e      0x117 ../sdk/4.13/libs\libLPBX3Kernel.a(smartlinkv7.o)
                                 0x11c (size before relaxing)
  .rodata._ZZ12m2m_tcp_sendE12__FUNCTION__
-                0x1807ce99        0xd ../sdk/4.13/libs\libLPBX3Kernel.a(socket_thread.o)
+                0x1807ce95        0xd ../sdk/4.13/libs\libLPBX3Kernel.a(socket_thread.o)
  .rodata.str1.1
-                0x1807cea6       0x73 ../sdk/4.13/libs\libLPBX3Kernel.a(socket_thread.o)
+                0x1807cea2       0x73 ../sdk/4.13/libs\libLPBX3Kernel.a(socket_thread.o)
                                  0x8e (size before relaxing)
  .rodata.str1.1
-                0x1807cf19      0x11b ../sdk/4.13/libs\libLPBX3Kernel.a(socket_a_http.o)
+                0x1807cf15      0x11b ../sdk/4.13/libs\libLPBX3Kernel.a(socket_a_http.o)
                                 0x144 (size before relaxing)
  .rodata.str1.1
-                0x1807d034      0x257 ../sdk/4.13/libs\libLPBX3Kernel.a(socket_a_mqtt.o)
+                0x1807d030      0x257 ../sdk/4.13/libs\libLPBX3Kernel.a(socket_a_mqtt.o)
                                 0x272 (size before relaxing)
  .rodata.str1.1
-                0x1807d28b       0x3a ../sdk/4.13/libs\libLPBX3Kernel.a(uart_thread.o)
+                0x1807d287       0x3a ../sdk/4.13/libs\libLPBX3Kernel.a(uart_thread.o)
                                  0x54 (size before relaxing)
  .rodata._ZZ17uart_thread_startE12__FUNCTION__
-                0x1807d2c5       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(uart_thread.o)
+                0x1807d2c1       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(uart_thread.o)
  .rodata.str1.1
-                0x1807d2d7       0xb2 ../sdk/4.13/libs\libLPBX3Kernel.a(WiFiStackInterface.o)
+                0x1807d2d3       0xb2 ../sdk/4.13/libs\libLPBX3Kernel.a(WiFiStackInterface.o)
                                  0xbc (size before relaxing)
- *fill*         0x1807d389        0x3 
+ *fill*         0x1807d385        0x3 
  .rodata._ZTV18WiFiStackInterface
-                0x1807d38c       0xa8 ../sdk/4.13/libs\libLPBX3Kernel.a(WiFiStackInterface.o)
-                0x1807d38c                vtable for WiFiStackInterface
+                0x1807d388       0xa8 ../sdk/4.13/libs\libLPBX3Kernel.a(WiFiStackInterface.o)
+                0x1807d388                vtable for WiFiStackInterface
  .rodata.str1.1
-                0x1807d434       0x34 ../sdk/4.13/libs\libLPBX3Kernel.a(rda5991h_wland.o)
+                0x1807d430       0x34 ../sdk/4.13/libs\libLPBX3Kernel.a(rda5991h_wland.o)
  .rodata.__func__.7723
-                0x1807d468       0x13 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d464       0x13 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.8160
-                0x1807d47b       0x1c ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d477       0x1c ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.7875
-                0x1807d497       0x1c ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d493       0x1c ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.8097
-                0x1807d4b3       0x1d ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d4af       0x1d ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.7748
-                0x1807d4d0       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d4cc       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.7760
-                0x1807d4e4       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d4e0       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.7802
-                0x1807d4f8       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d4f4       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.8018
-                0x1807d50f       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d50b       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.str1.1
-                0x1807d526      0x438 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d522      0x438 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.7770
-                0x1807d95e       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d95a       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.8030
-                0x1807d976       0x1b ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d972       0x1b ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.7966
-                0x1807d991       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d98d       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.7830
-                0x1807d9a8       0x1c ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d9a4       0x1c ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.__func__.7837
-                0x1807d9c4       0x1d ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
+                0x1807d9c0       0x1d ../sdk/4.13/libs\libLPBX3Kernel.a(wland_flash.o)
  .rodata.str1.1
-                0x1807d9e1        0xd ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_tcpip.o)
- *fill*         0x1807d9ee        0x2 
+                0x1807d9dd        0xd ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_tcpip.o)
+ *fill*         0x1807d9ea        0x2 
  .rodata.err_to_errno_table
-                0x1807d9f0       0x44 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_sockets.o)
+                0x1807d9ec       0x44 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_sockets.o)
  .rodata.str1.1
-                0x1807da34       0x2f ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_dhcp.o)
- *fill*         0x1807da63        0x1 
+                0x1807da30       0x2f ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_dhcp.o)
+ *fill*         0x1807da5f        0x1 
  .rodata.ip_addr_broadcast
-                0x1807da64        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_ip4_addr.o)
-                0x1807da64                ip_addr_broadcast
+                0x1807da60        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_ip4_addr.o)
+                0x1807da60                ip_addr_broadcast
  .rodata.ip_addr_any
-                0x1807da68        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_ip4_addr.o)
-                0x1807da68                ip_addr_any
+                0x1807da64        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_ip4_addr.o)
+                0x1807da64                ip_addr_any
  .rodata.str1.1
-                0x1807da6c       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_dns.o)
- *fill*         0x1807da83        0x1 
+                0x1807da68       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_dns.o)
+ *fill*         0x1807da7f        0x1 
  .rodata.memp_pools
-                0x1807da84       0x40 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807da84                memp_pools
+                0x1807da80       0x40 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807da80                memp_pools
  .rodata.memp_PBUF
-                0x1807dac4        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807dac4                memp_PBUF
+                0x1807dac0        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807dac0                memp_PBUF
  .rodata.memp_IGMP_GROUP
-                0x1807dad0        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807dad0                memp_IGMP_GROUP
+                0x1807dacc        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807dacc                memp_IGMP_GROUP
  .rodata.memp_NETDB
-                0x1807dadc        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807dadc                memp_NETDB
+                0x1807dad8        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807dad8                memp_NETDB
  .rodata.memp_NETBUF
-                0x1807dae8        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807dae8                memp_NETBUF
+                0x1807dae4        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807dae4                memp_NETBUF
  .rodata.memp_UDP_PCB
-                0x1807daf4        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807daf4                memp_UDP_PCB
+                0x1807daf0        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807daf0                memp_UDP_PCB
  .rodata.memp_PBUF_POOL
-                0x1807db00        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db00                memp_PBUF_POOL
+                0x1807dafc        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807dafc                memp_PBUF_POOL
  .rodata.memp_REASSDATA
-                0x1807db0c        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db0c                memp_REASSDATA
+                0x1807db08        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807db08                memp_REASSDATA
  .rodata.memp_TCP_PCB
-                0x1807db18        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db18                memp_TCP_PCB
+                0x1807db14        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807db14                memp_TCP_PCB
  .rodata.memp_TCP_SEG
-                0x1807db24        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db24                memp_TCP_SEG
+                0x1807db20        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807db20                memp_TCP_SEG
  .rodata.memp_TCPIP_MSG_API
-                0x1807db30        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db30                memp_TCPIP_MSG_API
+                0x1807db2c        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807db2c                memp_TCPIP_MSG_API
  .rodata.memp_NETCONN
-                0x1807db3c        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db3c                memp_NETCONN
+                0x1807db38        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807db38                memp_NETCONN
  .rodata.memp_SYS_TIMEOUT
-                0x1807db48        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db48                memp_SYS_TIMEOUT
+                0x1807db44        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807db44                memp_SYS_TIMEOUT
  .rodata.memp_FRAG_PBUF
-                0x1807db54        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db54                memp_FRAG_PBUF
+                0x1807db50        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807db50                memp_FRAG_PBUF
  .rodata.memp_TCP_PCB_LISTEN
-                0x1807db60        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db60                memp_TCP_PCB_LISTEN
+                0x1807db5c        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807db5c                memp_TCP_PCB_LISTEN
  .rodata.memp_RAW_PCB
-                0x1807db6c        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db6c                memp_RAW_PCB
+                0x1807db68        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807db68                memp_RAW_PCB
  .rodata.memp_TCPIP_MSG_INPKT
-                0x1807db78        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
-                0x1807db78                memp_TCPIP_MSG_INPKT
+                0x1807db74        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_memp.o)
+                0x1807db74                memp_TCPIP_MSG_INPKT
  .rodata.tcp_pcb_lists
-                0x1807db84       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_tcp.o)
-                0x1807db84                tcp_pcb_lists
+                0x1807db80       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_tcp.o)
+                0x1807db80                tcp_pcb_lists
  .rodata.tcp_backoff
-                0x1807db94        0xd ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_tcp.o)
-                0x1807db94                tcp_backoff
+                0x1807db90        0xd ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_tcp.o)
+                0x1807db90                tcp_backoff
  .rodata.tcp_persist_backoff
-                0x1807dba1        0x7 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_tcp.o)
-                0x1807dba1                tcp_persist_backoff
+                0x1807db9d        0x7 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_tcp.o)
+                0x1807db9d                tcp_persist_backoff
  .rodata.ethbroadcast
-                0x1807dba8        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_ethernet.o)
-                0x1807dba8                ethbroadcast
+                0x1807dba4        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_ethernet.o)
+                0x1807dba4                ethbroadcast
  .rodata.ethzero
-                0x1807dbae        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_ethernet.o)
-                0x1807dbae                ethzero
+                0x1807dbaa        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_ethernet.o)
+                0x1807dbaa                ethzero
  .rodata.lwip_cyclic_timers
-                0x1807dbb4       0x38 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_timeouts.o)
-                0x1807dbb4                lwip_cyclic_timers
+                0x1807dbb0       0x38 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_timeouts.o)
+                0x1807dbb0                lwip_cyclic_timers
  .rodata.lwip_stack_api
-                0x1807dbec       0x48 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_stack.o)
-                0x1807dbec                lwip_stack_api
+                0x1807dbe8       0x48 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_stack.o)
+                0x1807dbe8                lwip_stack_api
  .rodata.CSWTCH.50
-                0x1807dc34       0x22 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_stack.o)
+                0x1807dc30       0x22 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_stack.o)
  .rodata.str1.1
-                0x1807dc56       0xdb ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_stack.o)
+                0x1807dc52       0xdb ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_stack.o)
                                  0xe3 (size before relaxing)
- *fill*         0x1807dd31        0x3 
+ *fill*         0x1807dd2d        0x3 
  .rodata._ZTV19NetworkStackWrapper
-                0x1807dd34       0x58 ../sdk/4.13/libs\libLPBX3Kernel.a(NetworkStack.o)
-                0x1807dd34                vtable for NetworkStackWrapper
+                0x1807dd30       0x58 ../sdk/4.13/libs\libLPBX3Kernel.a(NetworkStack.o)
+                0x1807dd30                vtable for NetworkStackWrapper
  .rodata.str1.1
-                0x1807dd8c       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(SocketAddress.o)
+                0x1807dd88       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(SocketAddress.o)
                                  0x1e (size before relaxing)
  .rodata.str1.1
-                0x1807dd9e       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(nsapi_dns.o)
+                0x1807dd9a       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(nsapi_dns.o)
                                   0x2 (size before relaxing)
- *fill*         0x1807dd9e        0x2 
+ *fill*         0x1807dd9a        0x2 
  .rodata._ZTVN4mbed6TickerE
-                0x1807dda0       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(Ticker.o)
-                0x1807dda0                vtable for mbed::Ticker
+                0x1807dd9c       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(Ticker.o)
+                0x1807dd9c                vtable for mbed::Ticker
  .rodata._ZTVN4mbed10TimerEventE
-                0x1807ddb4       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(TimerEvent.o)
-                0x1807ddb4                vtable for mbed::TimerEvent
+                0x1807ddb0       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(TimerEvent.o)
+                0x1807ddb0                vtable for mbed::TimerEvent
  .rodata.str1.1
-                0x1807ddc8       0x31 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_assert.o)
+                0x1807ddc4       0x31 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_assert.o)
  .rodata.str1.1
-                0x1807ddf9       0x60 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_critical.o)
- *fill*         0x1807de59        0x3 
+                0x1807ddf5       0x60 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_critical.o)
+ *fill*         0x1807de55        0x3 
  .rodata.us_interface
-                0x1807de5c       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_us_ticker_api.o)
+                0x1807de58       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_us_ticker_api.o)
  .rodata.us_data
-                0x1807de70        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_us_ticker_api.o)
+                0x1807de6c        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_us_ticker_api.o)
  .rodata.str1.1
-                0x1807de78       0x36 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_rtc_time.o)
+                0x1807de74       0x36 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_rtc_time.o)
  .rodata.str1.1
-                0x1807deae      0x47d ../sdk/4.13/libs\libLPBX3Kernel.a(cmsis_nvic.o)
+                0x1807deaa      0x47d ../sdk/4.13/libs\libLPBX3Kernel.a(cmsis_nvic.o)
  .rodata.str1.1
-                0x1807e32b       0x55 ../sdk/4.13/libs\libLPBX3Kernel.a(gpio_api.o)
+                0x1807e327       0x55 ../sdk/4.13/libs\libLPBX3Kernel.a(gpio_api.o)
                                  0x80 (size before relaxing)
  .rodata.PinMap_GPIO
-                0x1807e380      0x1a4 ../sdk/4.13/libs\libLPBX3Kernel.a(gpio_api.o)
- .rodata        0x1807e524       0x70 ../sdk/4.13/libs\libLPBX3Kernel.a(gpio_irq_api.o)
+                0x1807e37c      0x1a4 ../sdk/4.13/libs\libLPBX3Kernel.a(gpio_api.o)
+ .rodata        0x1807e520       0x70 ../sdk/4.13/libs\libLPBX3Kernel.a(gpio_irq_api.o)
  .rodata.str1.1
-                0x1807e594       0x8a ../sdk/4.13/libs\libLPBX3Kernel.a(gpio_irq_api.o)
- *fill*         0x1807e61e        0x2 
- .rodata        0x1807e620       0x1c ../sdk/4.13/libs\libLPBX3Kernel.a(rda_ccfg_api.o)
+                0x1807e590       0x8a ../sdk/4.13/libs\libLPBX3Kernel.a(gpio_irq_api.o)
+ *fill*         0x1807e61a        0x2 
+ .rodata        0x1807e61c       0x1c ../sdk/4.13/libs\libLPBX3Kernel.a(rda_ccfg_api.o)
  .rodata.str1.1
-                0x1807e63c       0xd2 ../sdk/4.13/libs\libLPBX3Kernel.a(retarget.o)
+                0x1807e638       0xd2 ../sdk/4.13/libs\libLPBX3Kernel.a(retarget.o)
                                 0x108 (size before relaxing)
  .rodata.str1.1
-                0x1807e70e       0x1c ../sdk/4.13/libs\libLPBX3Kernel.a(rda_sleep_api.o)
+                0x1807e70a       0x1c ../sdk/4.13/libs\libLPBX3Kernel.a(rda_sleep_api.o)
  .rodata.str1.1
-                0x1807e72a       0x3e ../sdk/4.13/libs\libLPBX3Kernel.a(pinmap.o)
+                0x1807e726       0x3e ../sdk/4.13/libs\libLPBX3Kernel.a(pinmap.o)
                                  0x51 (size before relaxing)
  .rodata.str1.1
-                0x1807e768       0x59 ../sdk/4.13/libs\libLPBX3Kernel.a(rda_wdt_api.o)
- *fill*         0x1807e7c1        0x3 
+                0x1807e764       0x59 ../sdk/4.13/libs\libLPBX3Kernel.a(rda_wdt_api.o)
+ *fill*         0x1807e7bd        0x3 
  .rodata.PinMap_UART_RTS
-                0x1807e7c4       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
+                0x1807e7c0       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
  .rodata.PinMap_UART_RX
-                0x1807e7dc       0x30 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
+                0x1807e7d8       0x30 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
  .rodata.str1.1
-                0x1807e80c      0x164 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
+                0x1807e808      0x164 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
  .rodata.PinMap_UART_TX
-                0x1807e970       0x30 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
+                0x1807e96c       0x30 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
  .rodata.PinMap_UART_CTS
-                0x1807e9a0       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
+                0x1807e99c       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
  .rodata.CSWTCH.25
-                0x1807e9b8        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
+                0x1807e9b4        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(serial_api.o)
  .rodata.str1.1
-                0x1807e9bc       0x25 ../sdk/4.13/libs\libLPBX3Kernel.a(Mutex.o)
- *fill*         0x1807e9e1        0x3 
+                0x1807e9b8       0x25 ../sdk/4.13/libs\libLPBX3Kernel.a(Mutex.o)
+ *fill*         0x1807e9dd        0x3 
  .rodata.os_clockrate
-                0x1807e9e4        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807e9e4                os_clockrate
+                0x1807e9e0        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807e9e0                os_clockrate
  .rodata.os_stackinfo
-                0x1807e9e8        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807e9e8                os_stackinfo
+                0x1807e9e4        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807e9e4                os_stackinfo
  .rodata.os_flags
-                0x1807e9ec        0x1 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807e9ec                os_flags
- *fill*         0x1807e9ed        0x1 
+                0x1807e9e8        0x1 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807e9e8                os_flags
+ *fill*         0x1807e9e9        0x1 
  .rodata.mp_tcb_size
-                0x1807e9ee        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807e9ee                mp_tcb_size
+                0x1807e9ea        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807e9ea                mp_tcb_size
  .rodata.os_mutex_def_env_mutex
-                0x1807e9f0        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807e9f0                os_mutex_def_env_mutex
+                0x1807e9ec        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807e9ec                os_mutex_def_env_mutex
  .rodata.os_thread_def_osTimerThread
-                0x1807e9f4       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807e9f4                os_thread_def_osTimerThread
+                0x1807e9f0       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807e9f0                os_thread_def_osTimerThread
  .rodata.str1.1
-                0x1807ea08       0x5b ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
- *fill*         0x1807ea63        0x1 
+                0x1807ea04       0x5b ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+ *fill*         0x1807ea5f        0x1 
  .rodata.mp_tmr_size
-                0x1807ea64        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807ea64                mp_tmr_size
- *fill*         0x1807ea66        0x2 
+                0x1807ea60        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807ea60                mp_tmr_size
+ *fill*         0x1807ea62        0x2 
  .rodata.mp_stk_size
-                0x1807ea68        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807ea68                mp_stk_size
+                0x1807ea64        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807ea64                mp_stk_size
  .rodata.os_mutex_def_malloc_mutex
-                0x1807ea6c        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807ea6c                os_mutex_def_malloc_mutex
+                0x1807ea68        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807ea68                os_mutex_def_malloc_mutex
  .rodata.os_rrobin
-                0x1807ea70        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807ea70                os_rrobin
+                0x1807ea6c        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807ea6c                os_rrobin
  .rodata.os_mutex_def_singleton_mutex
-                0x1807ea74        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807ea74                os_mutex_def_singleton_mutex
+                0x1807ea70        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807ea70                os_mutex_def_singleton_mutex
  .rodata.os_messageQ_def_osTimerMessageQ
-                0x1807ea78        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807ea78                os_messageQ_def_osTimerMessageQ
+                0x1807ea74        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807ea74                os_messageQ_def_osTimerMessageQ
  .rodata.os_trv
-                0x1807ea80        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807ea80                os_trv
+                0x1807ea7c        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807ea7c                os_trv
  .rodata.os_fifo_size
-                0x1807ea84        0x1 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807ea84                os_fifo_size
- *fill*         0x1807ea85        0x1 
+                0x1807ea80        0x1 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807ea80                os_fifo_size
+ *fill*         0x1807ea81        0x1 
  .rodata.os_maxtaskrun
-                0x1807ea86        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
-                0x1807ea86                os_maxtaskrun
- .rodata        0x1807ea88        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(chan_mgmt_ap.o)
- *fill*         0x1807ea8e        0x2 
- .rodata        0x1807ea90        0x7 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
- *fill*         0x1807ea97        0x1 
+                0x1807ea82        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(RTX_Conf_CM.o)
+                0x1807ea82                os_maxtaskrun
+ .rodata        0x1807ea84        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(chan_mgmt_ap.o)
+ *fill*         0x1807ea8a        0x2 
+ .rodata        0x1807ea8c        0x7 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
+ *fill*         0x1807ea93        0x1 
  .rodata.g_short_wid_struct
-                0x1807ea98      0x138 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
-                0x1807ea98                g_short_wid_struct
+                0x1807ea94      0x138 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
+                0x1807ea94                g_short_wid_struct
  .rodata.g_binary_data_wid_struct
-                0x1807ebd0       0xb4 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
-                0x1807ebd0                g_binary_data_wid_struct
+                0x1807ebcc       0xb4 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
+                0x1807ebcc                g_binary_data_wid_struct
  .rodata.g_str_wid_struct
-                0x1807ec84      0x240 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
-                0x1807ec84                g_str_wid_struct
+                0x1807ec80      0x240 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
+                0x1807ec80                g_str_wid_struct
  .rodata.g_int_wid_struct
-                0x1807eec4      0x1b0 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
-                0x1807eec4                g_int_wid_struct
+                0x1807eec0      0x1b0 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
+                0x1807eec0                g_int_wid_struct
  .rodata.g_char_wid_struct
-                0x1807f074      0x4e0 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
-                0x1807f074                g_char_wid_struct
+                0x1807f070      0x4e0 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
+                0x1807f070                g_char_wid_struct
  .rodata.str1.4
-                0x1807f554       0x21 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
- *fill*         0x1807f575        0x3 
+                0x1807f550       0x21 ../sdk/4.13/libs\libLPBX3Kernel.a(iconfig.o)
+ *fill*         0x1807f571        0x3 
  .rodata.CSWTCH.38
-                0x1807f578        0x5 ../sdk/4.13/libs\libLPBX3Kernel.a(ieee_11i_sta.o)
- *fill*         0x1807f57d        0x3 
- .rodata        0x1807f580       0x24 ../sdk/4.13/libs\libLPBX3Kernel.a(imem_if.o)
+                0x1807f574        0x5 ../sdk/4.13/libs\libLPBX3Kernel.a(ieee_11i_sta.o)
+ *fill*         0x1807f579        0x3 
+ .rodata        0x1807f57c       0x24 ../sdk/4.13/libs\libLPBX3Kernel.a(imem_if.o)
  .rodata.g_txq_pri_to_num
-                0x1807f5a4       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(management_11e.o)
-                0x1807f5a4                g_txq_pri_to_num
- *fill*         0x1807f5b5        0x3 
+                0x1807f5a0       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(management_11e.o)
+                0x1807f5a0                g_txq_pri_to_num
+ *fill*         0x1807f5b1        0x3 
  .rodata.station_id.21630
-                0x1807f5b8        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(mib.o)
- *fill*         0x1807f5be        0x2 
+                0x1807f5b4        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(mib.o)
+ *fill*         0x1807f5ba        0x2 
  .rodata.str1.4
-                0x1807f5c0        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(mib.o)
- *fill*         0x1807f5c6        0x2 
+                0x1807f5bc        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(mib.o)
+ *fill*         0x1807f5c2        0x2 
  .rodata.station_id.21630
-                0x1807f5c8        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(mib_mac1.o)
+                0x1807f5c4        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(mib_mac1.o)
  .rodata.str1.4
-                0x1807f5ce        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(mib_mac1.o)
- *fill*         0x1807f5ce        0x2 
+                0x1807f5ca        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(mib_mac1.o)
+ *fill*         0x1807f5ca        0x2 
  .rodata.g_rates_phy_802_11g
-                0x1807f5d0       0x24 ../sdk/4.13/libs\libLPBX3Kernel.a(phy_802_11n.o)
-                0x1807f5d0                g_rates_phy_802_11g
+                0x1807f5cc       0x24 ../sdk/4.13/libs\libLPBX3Kernel.a(phy_802_11n.o)
+                0x1807f5cc                g_rates_phy_802_11g
  .rodata.g_mcs_user_rate
-                0x1807f5f4       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(phy_802_11n.o)
-                0x1807f5f4                g_mcs_user_rate
+                0x1807f5f0       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(phy_802_11n.o)
+                0x1807f5f0                g_mcs_user_rate
  .rodata.agc_tbl_val.21814
-                0x1807f604      0x180 ../sdk/4.13/libs\libLPBX3Kernel.a(phy_ittiam_40mhz.o)
+                0x1807f600      0x180 ../sdk/4.13/libs\libLPBX3Kernel.a(phy_ittiam_40mhz.o)
  .rodata.g_bmap
-                0x1807f784        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(pm_ap.o)
+                0x1807f780        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(pm_ap.o)
  .rodata.CSWTCH.158
-                0x1807f78c        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(pm_sta.o)
+                0x1807f788        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(pm_sta.o)
  .rodata.g_bmap
-                0x1807f794        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(pm_sta.o)
+                0x1807f790        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(pm_sta.o)
  .rodata.CSWTCH.81
-                0x1807f79c        0x5 ../sdk/4.13/libs\libLPBX3Kernel.a(receive.o)
- *fill*         0x1807f7a1        0x3 
+                0x1807f798        0x5 ../sdk/4.13/libs\libLPBX3Kernel.a(receive.o)
+ *fill*         0x1807f79d        0x3 
  .rodata.CSWTCH.83
-                0x1807f7a4        0x5 ../sdk/4.13/libs\libLPBX3Kernel.a(receive.o)
- *fill*         0x1807f7a9        0x3 
+                0x1807f7a0        0x5 ../sdk/4.13/libs\libLPBX3Kernel.a(receive.o)
+ *fill*         0x1807f7a5        0x3 
  .rodata.str1.4
-                0x1807f7ac       0x19 ../sdk/4.13/libs\libLPBX3Kernel.a(reg_domain_rda_ittiam.o)
- *fill*         0x1807f7c5        0x3 
+                0x1807f7a8       0x19 ../sdk/4.13/libs\libLPBX3Kernel.a(reg_domain_rda_ittiam.o)
+ *fill*         0x1807f7c1        0x3 
  .rodata.CSWTCH.15
-                0x1807f7c8        0x5 ../sdk/4.13/libs\libLPBX3Kernel.a(rsna_km.o)
- *fill*         0x1807f7cd        0x3 
+                0x1807f7c4        0x5 ../sdk/4.13/libs\libLPBX3Kernel.a(rsna_km.o)
+ *fill*         0x1807f7c9        0x3 
  .rodata.g_handle_mlme_rsp_func_ap
-                0x1807f7d0       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(sme_ap.o)
+                0x1807f7cc       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(sme_ap.o)
  .rodata.g_handle_mlme_rsp_func_sta
-                0x1807f7e4       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(sme_sta.o)
+                0x1807f7e0       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(sme_sta.o)
  .rodata.CSWTCH.26
-                0x1807f7f8        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(sta_uapsd.o)
+                0x1807f7f4        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(sta_uapsd.o)
  .rodata._rf_interface_data
-                0x1807f800      0x10c ../sdk/4.13/libs\libLPBX3Kernel.a(vco_rda_ittiam.o)
+                0x1807f7fc      0x10c ../sdk/4.13/libs\libLPBX3Kernel.a(vco_rda_ittiam.o)
  .rodata.reg_table.10923
-                0x1807f90c      0x130 ../sdk/4.13/libs\libLPBX3Kernel.a(vco_rda_ittiam.o)
+                0x1807f908      0x130 ../sdk/4.13/libs\libLPBX3Kernel.a(vco_rda_ittiam.o)
  .rodata._rf_interface_code
-                0x1807fa3c      0xe2c ../sdk/4.13/libs\libLPBX3Kernel.a(vco_rda_ittiam.o)
- .rodata        0x18080868        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_sha1.o)
+                0x1807fa38      0xe2c ../sdk/4.13/libs\libLPBX3Kernel.a(vco_rda_ittiam.o)
+ .rodata        0x18080864        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_sha1.o)
  .rodata.str1.1
-                0x1808086a        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_sha1.o)
+                0x18080866        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_sha1.o)
  .rodata.__func__.8932
-                0x1808086c        0xd ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
+                0x18080868        0xd ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
  .rodata.__func__.9047
-                0x18080879       0x15 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
+                0x18080875       0x15 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
  .rodata.__func__.9094
-                0x1808088e       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
+                0x1808088a       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
  .rodata.__func__.8950
-                0x1808089f       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
+                0x1808089b       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
  .rodata.str1.1
-                0x180808b6      0x1be ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
+                0x180808b2      0x1be ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
                                 0x1c0 (size before relaxing)
  .rodata.__func__.9116
-                0x18080a74        0xb ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
+                0x18080a70        0xb ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
  .rodata.__func__.9014
-                0x18080a7f        0xf ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
+                0x18080a7b        0xf ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
  .rodata.__func__.8966
-                0x18080a8e       0x1a ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
- .rodata        0x18080aa8        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080a8a       0x1a ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if.o)
+ .rodata        0x18080aa4        0x6 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8443
-                0x18080aae       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080aaa       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8500
-                0x18080ac4       0x13 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080ac0       0x13 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8539
-                0x18080ad7        0xe ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080ad3        0xe ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8460
-                0x18080ae5       0x13 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080ae1       0x13 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8511
-                0x18080af8       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080af4       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8472
-                0x18080b09       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080b05       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8351
-                0x18080b19       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080b15       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8520
-                0x18080b31       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080b2d       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8342
-                0x18080b43       0x19 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080b3f       0x19 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.str1.1
-                0x18080b5c      0x357 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080b58      0x357 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8532
-                0x18080eb3        0xf ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080eaf        0xf ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8495
-                0x18080ec2       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080ebe       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8361
-                0x18080ed3       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080ecf       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8402
-                0x18080eea       0x1b ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080ee6       0x1b ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8407
-                0x18080f05       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080f01       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8372
-                0x18080f1d       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080f19       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8383
-                0x18080f35       0x19 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080f31       0x19 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.8397
-                0x18080f4e       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
+                0x18080f4a       0x12 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_ap.o)
  .rodata.__func__.9040
-                0x18080f60        0xe ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x18080f5c        0xe ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.8881
-                0x18080f6e       0x20 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x18080f6a       0x20 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.8886
-                0x18080f8e       0x1f ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x18080f8a       0x1f ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.8899
-                0x18080fad       0x13 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x18080fa9       0x13 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.8939
-                0x18080fc0        0xf ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x18080fbc        0xf ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.str1.1
-                0x18080fcf      0x402 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x18080fcb      0x402 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.9054
-                0x180813d1        0xe ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x180813cd        0xe ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.9090
-                0x180813df       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x180813db       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.9111
-                0x180813f0       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x180813ec       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.9010
-                0x18081400       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x180813fc       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.8871
-                0x18081410       0x15 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x1808140c       0x15 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.8966
-                0x18081425       0x19 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x18081421       0x19 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.9018
-                0x1808143e       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x1808143a       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.8862
-                0x1808144e       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x1808144a       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.8998
-                0x18081466       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x18081462       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.8981
-                0x18081476       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x18081472       0x11 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.8917
-                0x18081487       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
+                0x18081483       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_if_sta.o)
  .rodata.__func__.9270
-                0x1808149b       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
+                0x18081497       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
  .rodata.__func__.8933
-                0x180814b3       0x19 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
+                0x180814af       0x19 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
  .rodata.__func__.9326
-                0x180814cc       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
+                0x180814c8       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
  .rodata.__func__.8945
-                0x180814dc       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
+                0x180814d8       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
  .rodata.str1.1
-                0x180814f2      0x259 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
+                0x180814ee      0x259 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
                                 0x276 (size before relaxing)
  .rodata.__func__.9342
-                0x1808174b        0xe ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
+                0x18081747        0xe ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
  .rodata.__func__.8959
-                0x18081759       0x20 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
+                0x18081755       0x20 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
  .rodata.__func__.9287
-                0x18081779       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
+                0x18081775       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_recv.o)
  .rodata.str1.1
-                0x18081791      0x858 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_rf.o)
+                0x1808178d      0x858 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_rf.o)
  .rodata.__func__.8373
-                0x18081fe9        0xf ../sdk/4.13/libs\libLPBX3Kernel.a(wland_rf.o)
+                0x18081fe5        0xf ../sdk/4.13/libs\libLPBX3Kernel.a(wland_rf.o)
  .rodata.__func__.8313
-                0x18081ff8       0x13 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
+                0x18081ff4       0x13 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
  .rodata.__func__.8429
-                0x1808200b       0x1a ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
+                0x18082007       0x1a ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
  .rodata.__func__.8444
-                0x18082025       0x1e ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
+                0x18082021       0x1e ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
  .rodata.str1.1
-                0x18082043      0x235 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
+                0x1808203f      0x235 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
                                 0x240 (size before relaxing)
  .rodata.__func__.8513
-                0x18082278        0xb ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
+                0x18082274        0xb ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
  .rodata.__func__.8303
-                0x18082283       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
+                0x1808227f       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
  .rodata.__func__.8523
-                0x1808229b        0xd ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
+                0x18082297        0xd ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
  .rodata.__func__.8533
-                0x180822a8       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
+                0x180822a4       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
  .rodata.__func__.8490
-                0x180822b8       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
+                0x180822b4       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_scan.o)
  .rodata.__func__.8353
-                0x180822d0       0x1b ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
+                0x180822cc       0x1b ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
  .rodata.__func__.8268
-                0x180822eb       0x1d ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
+                0x180822e7       0x1d ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
  .rodata.__func__.8276
-                0x18082308       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
+                0x18082304       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
  .rodata.__func__.8340
-                0x18082320       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
+                0x1808231c       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
  .rodata.str1.1
-                0x18082336      0x1b9 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
+                0x18082332      0x1b9 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
  .rodata.__func__.8294
-                0x180824ef       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
+                0x180824eb       0x17 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
  .rodata.__func__.8358
-                0x18082506       0x15 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
+                0x18082502       0x15 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
  .rodata.__func__.8303
-                0x1808251b       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
+                0x18082517       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(wland_sniffer.o)
  .rodata.str1.1
-                0x18082531      0x24b ../sdk/4.13/libs\libLPBX3Kernel.a(assis_thread.o)
+                0x1808252d      0x24b ../sdk/4.13/libs\libLPBX3Kernel.a(assis_thread.o)
                                 0x267 (size before relaxing)
  .rodata._ZL20airlink_magic_header
-                0x1808277c        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(airkiss.o)
+                0x18082778        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(airkiss.o)
  .rodata.str1.1
-                0x18082784      0x581 ../sdk/4.13/libs\libLPBX3Kernel.a(airkiss.o)
+                0x18082780      0x581 ../sdk/4.13/libs\libLPBX3Kernel.a(airkiss.o)
                                 0x58a (size before relaxing)
- .rodata        0x18082d05       0x1a ../sdk/4.13/libs\libLPBX3Kernel.a(at_wifi_cmd.o)
- *fill*         0x18082d1f        0x1 
+ .rodata        0x18082d01       0x1a ../sdk/4.13/libs\libLPBX3Kernel.a(at_wifi_cmd.o)
+ *fill*         0x18082d1b        0x1 
  .rodata.hf_wifi_at_cmds_table
-                0x18082d20      0x160 ../sdk/4.13/libs\libLPBX3Kernel.a(at_wifi_cmd.o)
-                0x18082d20                hf_wifi_at_cmds_table
+                0x18082d1c      0x160 ../sdk/4.13/libs\libLPBX3Kernel.a(at_wifi_cmd.o)
+                0x18082d1c                hf_wifi_at_cmds_table
  .rodata.str1.1
-                0x18082e80      0x6c7 ../sdk/4.13/libs\libLPBX3Kernel.a(at_wifi_cmd.o)
+                0x18082e7c      0x6c7 ../sdk/4.13/libs\libLPBX3Kernel.a(at_wifi_cmd.o)
                                 0x77a (size before relaxing)
- *fill*         0x18083547        0x1 
- .rodata        0x18083548       0x8c ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
+ *fill*         0x18083543        0x1 
+ .rodata        0x18083544       0x8c ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
  .rodata._ZL7testpin
-                0x180835d4       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
+                0x180835d0       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
  .rodata._ZL24user_define_at_cmds_null
-                0x180835e8       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
+                0x180835e4       0x10 ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
  .rodata._ZL17hf_gpio_pin_table
-                0x180835f8       0x8c ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
+                0x180835f4       0x8c ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
  .rodata.str1.1
-                0x18083684      0x8c9 ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
+                0x18083680      0x8c9 ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
                                 0x9c7 (size before relaxing)
- *fill*         0x18083f4d        0x3 
+ *fill*         0x18083f49        0x3 
  .rodata._ZL25hf_wifitest_at_cmds_table
-                0x18083f50       0x30 ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
+                0x18083f4c       0x30 ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
  .rodata._ZL22hf_utils_at_cmds_table
-                0x18083f80      0x1f0 ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
+                0x18083f7c      0x1f0 ../sdk/4.13/libs\libLPBX3Kernel.a(hfat.o)
  .rodata.str1.1
-                0x18084170       0x25 ../sdk/4.13/libs\libLPBX3Kernel.a(mdns_main.o)
+                0x1808416c       0x25 ../sdk/4.13/libs\libLPBX3Kernel.a(mdns_main.o)
                                  0x2f (size before relaxing)
- *fill*         0x18084195        0x3 
+ *fill*         0x18084191        0x3 
  .rodata.os_mutex_def_lwip_sys_mutex
-                0x18084198        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_sys_arch.o)
-                0x18084198                os_mutex_def_lwip_sys_mutex
+                0x18084194        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_sys_arch.o)
+                0x18084194                os_mutex_def_lwip_sys_mutex
  .rodata.str1.1
-                0x1808419c      0x129 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_sys_arch.o)
- *fill*         0x180842c5        0x3 
- .rodata        0x180842c8        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(maclib_task.o)
+                0x18084198      0x129 ../sdk/4.13/libs\libLPBX3Kernel.a(lwip_sys_arch.o)
+ *fill*         0x180842c1        0x3 
+ .rodata        0x180842c4        0xc ../sdk/4.13/libs\libLPBX3Kernel.a(maclib_task.o)
  .rodata.str1.1
-                0x180842d4       0x94 ../sdk/4.13/libs\libLPBX3Kernel.a(maclib_task.o)
+                0x180842d0       0x94 ../sdk/4.13/libs\libLPBX3Kernel.a(maclib_task.o)
  .rodata.dhcp_magic_cookie
-                0x18084368        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(dhcps.o)
+                0x18084364        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(dhcps.o)
  .rodata.str1.1
-                0x1808436c       0x8a ../sdk/4.13/libs\libLPBX3Kernel.a(dhcps.o)
- *fill*         0x180843f6        0x2 
+                0x18084368       0x8a ../sdk/4.13/libs\libLPBX3Kernel.a(dhcps.o)
+ *fill*         0x180843f2        0x2 
  .rodata.os_mutex_def_dhcps_ip_table_mutex
-                0x180843f8        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(dhcps.o)
-                0x180843f8                os_mutex_def_dhcps_ip_table_mutex
+                0x180843f4        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(dhcps.o)
+                0x180843f4                os_mutex_def_dhcps_ip_table_mutex
  .rodata.dhcp_option_interface_mtu_576
-                0x180843fc        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(dhcps.o)
- *fill*         0x180843fe        0x2 
+                0x180843f8        0x2 ../sdk/4.13/libs\libLPBX3Kernel.a(dhcps.o)
+ *fill*         0x180843fa        0x2 
  .rodata._ZTV6Socket
-                0x18084400       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(UDPSocket.o)
-                0x18084400                vtable for Socket
+                0x180843fc       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(UDPSocket.o)
+                0x180843fc                vtable for Socket
  .rodata._ZTV9UDPSocket
-                0x18084418       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(UDPSocket.o)
-                0x18084418                vtable for UDPSocket
+                0x18084414       0x18 ../sdk/4.13/libs\libLPBX3Kernel.a(UDPSocket.o)
+                0x18084414                vtable for UDPSocket
  .rodata.str1.1
-                0x18084430       0x5b ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_gpio.o)
+                0x1808442c       0x5b ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_gpio.o)
  .rodata.lp_interface
-                0x18084430       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_lp_ticker_api.o)
+                0x1808442c       0x14 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_lp_ticker_api.o)
  .rodata.lp_data
-                0x18084444        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_lp_ticker_api.o)
+                0x18084440        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_lp_ticker_api.o)
  .rodata.str1.1
-                0x1808444c       0x60 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_pinmap_common.o)
- .rodata        0x180844ac        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(blockack.o)
+                0x18084448       0x60 ../sdk/4.13/libs\libLPBX3Kernel.a(mbed_pinmap_common.o)
+ .rodata        0x180844a8        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(blockack.o)
  .rodata.CSWTCH.51
-                0x180844b0        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(host_rx_msdu_sta.o)
+                0x180844ac        0x4 ../sdk/4.13/libs\libLPBX3Kernel.a(host_rx_msdu_sta.o)
  .rodata.CSWTCH.76
-                0x180844b4        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(host_rx_msdu_sta.o)
+                0x180844b0        0x8 ../sdk/4.13/libs\libLPBX3Kernel.a(host_rx_msdu_sta.o)
  .rodata.CSWTCH.48
-                0x180844bc       0x40 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa.o)
+                0x180844b8       0x40 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa.o)
  .rodata.str1.1
-                0x180844fc      0xf31 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa.o)
+                0x180844f8      0xf31 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa.o)
                                 0xf4b (size before relaxing)
- .rodata        0x1808542d       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa_ap.o)
+ .rodata        0x18085429       0x16 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa_ap.o)
  .rodata.str1.1
-                0x18085443      0x36e ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa_ap.o)
+                0x1808543f      0x36e ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa_ap.o)
                                 0x3fe (size before relaxing)
  .rodata.str1.1
-                0x180857b1       0xb6 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa_common.o)
+                0x180857ad       0xb6 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa_common.o)
                                  0xd2 (size before relaxing)
- .rodata        0x18085867        0x7 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa_get_suites.o)
+ .rodata        0x18085863        0x7 ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa_get_suites.o)
  .rodata.str1.1
-                0x1808586e      0x2aa ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa_get_suites.o)
+                0x1808586a      0x2aa ../sdk/4.13/libs\libLPBX3Kernel.a(wifi_wpa_get_suites.o)
                                 0x2c6 (size before relaxing)
  .rodata.str1.1
-                0x18085b18      0x3b3 ../sdk/4.13/libs\libLPBX3Kernel.a(at_network_cmd.o)
+                0x18085b14      0x3b3 ../sdk/4.13/libs\libLPBX3Kernel.a(at_network_cmd.o)
                                 0x433 (size before relaxing)
- *fill*         0x18085ecb        0x1 
+ *fill*         0x18085ec7        0x1 
  .rodata.hf_network_at_cmds_table
-                0x18085ecc       0xe0 ../sdk/4.13/libs\libLPBX3Kernel.a(at_network_cmd.o)
-                0x18085ecc                hf_network_at_cmds_table
+                0x18085ec8       0xe0 ../sdk/4.13/libs\libLPBX3Kernel.a(at_network_cmd.o)
+                0x18085ec8                hf_network_at_cmds_table
  .rodata.str1.1
-                0x18085fac       0xcc ../sdk/4.13/libs\libLPBX3Kernel.a(ping.o)
+                0x18085fa8       0xcc ../sdk/4.13/libs\libLPBX3Kernel.a(ping.o)
  .rodata.str1.4
-                0x18086078        0x4 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libm.a(lib_a-w_pow.o)
+                0x18086074        0x4 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libm.a(lib_a-w_pow.o)
  .rodata.str1.4
-                0x1808607c        0x1 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libm.a(lib_a-e_pow.o)
- *fill*         0x1808607c        0x4 
- .rodata.TWO52  0x18086080       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libm.a(lib_a-s_rint.o)
+                0x18086078        0x1 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libm.a(lib_a-e_pow.o)
+ *fill*         0x18086078        0x0 
+ .rodata.TWO52  0x18086078       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libm.a(lib_a-s_rint.o)
  .rodata._global_impure_ptr
-                0x18086090        0x4 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-impure.o)
-                0x18086090                _global_impure_ptr
+                0x18086088        0x4 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-impure.o)
+                0x18086088                _global_impure_ptr
  .rodata.str1.4
-                0x18086094        0xe c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-locale.o)
+                0x1808608c        0xe c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-locale.o)
                                  0x12 (size before relaxing)
- *fill*         0x180860a2        0x2 
+ *fill*         0x1808609a        0x2 
  .rodata._DAYS_BEFORE_MONTH
-                0x180860a4       0x30 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mktime.o)
+                0x1808609c       0x30 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mktime.o)
  .rodata.DAYS_IN_MONTH
-                0x180860d4       0x30 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mktime.o)
+                0x180860cc       0x30 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mktime.o)
  .rodata.__month_lengths
-                0x18086104       0x60 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-month_lengths.o)
-                0x18086104                __month_lengths
+                0x180860fc       0x60 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-month_lengths.o)
+                0x180860fc                __month_lengths
  .rodata.str1.4
-                0x18086164       0x7c c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-strftime.o)
+                0x1808615c       0x7c c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-strftime.o)
                                  0x80 (size before relaxing)
  .rodata.zeroes.7258
-                0x180861e0       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfprintf.o)
+                0x180861d8       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfprintf.o)
  .rodata.str1.4
-                0x180861f0       0x3f c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfprintf.o)
+                0x180861e8       0x3f c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfprintf.o)
                                  0x42 (size before relaxing)
- *fill*         0x1808622f        0x1 
+ *fill*         0x18086227        0x1 
  .rodata.blanks.7257
-                0x18086230       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfprintf.o)
+                0x18086228       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfprintf.o)
  .rodata.basefix.7328
-                0x18086240       0x22 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfscanf.o)
- *fill*         0x18086262        0x2 
+                0x18086238       0x22 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfscanf.o)
+ *fill*         0x1808625a        0x2 
  .rodata.str1.4
-                0x18086264        0x5 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfscanf.o)
- *fill*         0x18086269        0x3 
+                0x1808625c        0x5 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfscanf.o)
+ *fill*         0x18086261        0x3 
  .rodata._C_time_locale
-                0x1808626c       0xfc c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-timelocal.o)
-                0x1808626c                _C_time_locale
+                0x18086264       0xfc c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-timelocal.o)
+                0x18086264                _C_time_locale
  .rodata.str1.4
-                0x18086368      0x158 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-timelocal.o)
+                0x18086360      0x158 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-timelocal.o)
                                 0x159 (size before relaxing)
  .rodata.str1.4
-                0x180864c0       0x53 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-tzset_r.o)
+                0x180864b8       0x53 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-tzset_r.o)
  .rodata.str1.4
-                0x18086513        0x4 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-tzvars.o)
- *fill*         0x18086513        0x1 
+                0x1808650b        0x4 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-tzvars.o)
+ *fill*         0x1808650b        0x1 
  .rodata.zeroes.7273
-                0x18086514       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-vfprintf.o)
+                0x1808650c       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
-                0x18086524       0x42 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-vfprintf.o)
+                0x1808651c       0x42 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-vfprintf.o)
  .rodata.blanks.7272
-                0x18086524       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-vfprintf.o)
+                0x1808651c       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-vfprintf.o)
  .rodata._ctype_
-                0x18086534      0x101 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-ctype_.o)
-                0x18086534                _ctype_
- *fill*         0x18086635        0x3 
+                0x1808652c      0x101 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-ctype_.o)
+                0x1808652c                _ctype_
+ *fill*         0x1808662d        0x3 
  .rodata.str1.4
-                0x18086638       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-dtoa.o)
+                0x18086630       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-dtoa.o)
                                  0x12 (size before relaxing)
  .rodata.str1.4
-                0x18086648        0x1 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mbrtowc.o)
+                0x18086640        0x1 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mbrtowc.o)
  .rodata.__mprec_tens
-                0x18086648       0xc8 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mprec.o)
-                0x18086648                __mprec_tens
+                0x18086640       0xc8 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mprec.o)
+                0x18086640                __mprec_tens
  .rodata.__mprec_bigtens
-                0x18086710       0x28 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mprec.o)
-                0x18086710                __mprec_bigtens
+                0x18086708       0x28 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mprec.o)
+                0x18086708                __mprec_bigtens
  .rodata.p05.6087
-                0x18086738        0xc c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mprec.o)
+                0x18086730        0xc c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-mprec.o)
  .rodata.fpi.6173
-                0x18086744       0x14 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-strtod.o)
+                0x1808673c       0x14 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-strtod.o)
  .rodata.str1.4
-                0x18086758       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-strtod.o)
+                0x18086750       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-strtod.o)
                                   0xf (size before relaxing)
  .rodata.fpinan.6209
-                0x18086768       0x14 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-strtod.o)
- *fill*         0x1808677c        0x4 
+                0x18086760       0x14 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-strtod.o)
+ *fill*         0x18086774        0x4 
  .rodata.tinytens
-                0x18086780       0x28 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-strtod.o)
+                0x18086778       0x28 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-strtod.o)
  .rodata.blanks.7237
-                0x180867a8       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfiprintf.o)
+                0x180867a0       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfiprintf.o)
  .rodata.str1.4
-                0x180867b8       0x2f c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfiprintf.o)
+                0x180867b0       0x2f c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfiprintf.o)
  .rodata.zeroes.7238
-                0x180867b8       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfiprintf.o)
+                0x180867b0       0x10 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfiprintf.o)
  .rodata.basefix.6821
-                0x180867c8       0x22 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfiscanf.o)
- *fill*         0x180867ea        0x2 
+                0x180867c0       0x22 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-svfiscanf.o)
+ *fill*         0x180867e2        0x2 
  .rodata.__hexdig
-                0x180867ec      0x100 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-gdtoa-gethex.o)
-                0x180867ec                __hexdig
+                0x180867e4      0x100 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-gdtoa-gethex.o)
+                0x180867e4                __hexdig
  *(.eh_frame*)
- .eh_frame      0x180868ec        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
- .eh_frame      0x180868ec        0x4 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
+ .eh_frame      0x180868e4        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .eh_frame      0x180868e4        0x4 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
 
-.glue_7         0x180868f0        0x0
- .glue_7        0x180868f0        0x0 linker stubs
+.glue_7         0x180868e8        0x0
+ .glue_7        0x180868e8        0x0 linker stubs
 
-.glue_7t        0x180868f0        0x0
- .glue_7t       0x180868f0        0x0 linker stubs
+.glue_7t        0x180868e8        0x0
+ .glue_7t       0x180868e8        0x0 linker stubs
 
-.vfp11_veneer   0x180868f0        0x0
- .vfp11_veneer  0x180868f0        0x0 linker stubs
+.vfp11_veneer   0x180868e8        0x0
+ .vfp11_veneer  0x180868e8        0x0 linker stubs
 
-.v4_bx          0x180868f0        0x0
- .v4_bx         0x180868f0        0x0 linker stubs
+.v4_bx          0x180868e8        0x0
+ .v4_bx         0x180868e8        0x0 linker stubs
 
-.iplt           0x180868f0        0x0
- .iplt          0x180868f0        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+.iplt           0x180868e8        0x0
+ .iplt          0x180868e8        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x180868f0                __exidx_start = .
+                0x180868e8                __exidx_start = .
 
-.ARM.exidx      0x180868f0        0x8
+.ARM.exidx      0x180868e8        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x180868f0        0x8 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
- .ARM.exidx     0x180868f8        0x0 ../sdk/4.13/libs\libLPBX3Kernel.a(HAL_CM4.o)
+ .ARM.exidx     0x180868e8        0x8 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .ARM.exidx     0x180868f0        0x0 ../sdk/4.13/libs\libLPBX3Kernel.a(HAL_CM4.o)
                                  0x48 (size before relaxing)
  .ARM.exidx.text.__aeabi_atexit
-                0x180868f8        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libstdc++.a(atexit_arm.o)
+                0x180868f0        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libstdc++.a(atexit_arm.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x180868f8        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x180868f0        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x180868f8                __exidx_end = .
-                0x180868f8                __etext = .
+                0x180868f0                __exidx_end = .
+                0x180868f0                __etext = .
 
-.data           0x00100080     0x16a4 load address 0x180868f8
+.data           0x00100080     0x16a4 load address 0x180868f0
                 0x00100080                __data_start__ = .
                 0x00100080                Image$$RW_IRAM1$$Base = .
  *(vtable)
@@ -14749,16 +14749,16 @@ LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm
                 0x00101724                PROVIDE (__fini_array_end, .)
                 0x00101724                . = ALIGN (0x4)
                 0x00101724                __data_end__ = .
-                0x18087f9c                __etextend = (__etext + SIZEOF (.data))
-                0x18087f9c                __etext1 = __etextend
+                0x18087f94                __etextend = (__etext + SIZEOF (.data))
+                0x18087f94                __etext1 = __etextend
 
-.jcr            0x00101724        0x0 load address 0x18087f9c
+.jcr            0x00101724        0x0 load address 0x18087f94
  .jcr           0x00101724        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
 
-.igot.plt       0x00101724        0x0 load address 0x18087f9c
+.igot.plt       0x00101724        0x0 load address 0x18087f94
  .igot.plt      0x00101724        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
 
-.text1          0x00101724        0x4 load address 0x18087f9c
+.text1          0x00101724        0x4 load address 0x18087f94
                 0x00101724                __text1_start__ = .
  *wland_flash_wp.o(.text*)
  .text.flash_wrtie_protect_all
@@ -14769,10 +14769,10 @@ LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm
                 0x00101726                flash_wrtie_protect
                 0x00101728                __text1_end__ = .
 
-.rel.dyn        0x00101728        0x0 load address 0x18087fa0
+.rel.dyn        0x00101728        0x0 load address 0x18087f98
  .rel.iplt      0x00101728        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
 
-.bss            0x00101728    0x161ed load address 0x18087fa0
+.bss            0x00101728    0x161ed load address 0x18087f98
                 0x00101728                __bss_start__ = .
  *(.bss*)
  .bss           0x00101728       0x1c c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o

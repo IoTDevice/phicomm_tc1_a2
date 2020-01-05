@@ -29,16 +29,10 @@
 
 ### 3.配网
 
-初次使用可以通过网页去配网：手机连接连接名为"HF-LPT230"的AP,然后用浏览器访问10.10.100.254  这个地址，需要登录，用户名和密码都是admin.
-
-在网页上输入要连接的WiFi SSID和密码,保存等待重启完成，模块就会自动连接你刚刚设置的WiFi网络。
-
-后续更改网络配置可以长按按键（要9秒左右），直到按键灯亮1秒后熄灭，松开按键，此时再按是没反应的，说明已经进入SmartLink配网模式，移步至release 下载hiflying-iots-android-smartlink-demo-7.0.3.apk进行配网。
-
-<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/web.png" width="540">
+使用[云易连](https://github.com/OpenIoTHub/OpenIoTHub)app配网
 
 ### 4.app控制
-使用A1版的APP，发现局域网设备的方式添加设备[SmartControl_Android_MQTT](https://github.com/a2633063/SmartControl_Android_MQTT)。
+使用云易连APP（OPenIoTHub），直接云易连添加设备，app配网自动发现[OpenIoTHub](https://github.com/OpenIoTHub/OpenIoTHub)。
 
 ### 5.固件升级
 
@@ -48,10 +42,3 @@ web网页升级:只需要访问模块的ip地址+iweb.html(例如：http://192.1
 即可，传输成功会返回：Update successful !
 
 <img src="https://github.com/linlyv/TC1_A2/blob/master/doc/webup.jpg" width="540">
-
-
-> 没有意外的应该是可以控制的，实时控制是可以的，但由于是UDP连接，有时APP控制不是很顺畅。
-> 还不能保存app设置的参数，像定时任务，插口名称都会掉电后丢失。
-> 我现在没有测试的设备了，因为一次OTA升级过程中卡死了，导致模块不能进BootLoader了！！！，暂时就只有局域网的APP控制了，可能问题也比较多。
-
-> 开发未完成，有已知的bug未解决, 不适合商用，千万不要在PDD上或转转上加价售卖烧录了此固件的排插，本人不承担他人使用本项目所造成的后果，所以请谨慎使用.
