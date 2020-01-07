@@ -11,7 +11,7 @@
 
 通过串口工具连接到电脑，打开secureCRT软件，设置参数230400,8,none,1 ，连接上模块。
 
-<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/lpt230.jpg" width="540" >
+<img src="./doc/lpt230.jpg" width="540" >
 > 图1 要接线的点（用到的点）
 
 
@@ -23,9 +23,9 @@
 
 等待传输完成即可。
 
-<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/step1.png" width="540">
-<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/step2.png" width="540">
-<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/step3.png" width="540">
+<img src="./doc/step1.png" width="540">
+<img src="./doc/step2.png" width="540">
+<img src="./doc/step3.png" width="540">
 
 ### 3.配网
 
@@ -41,4 +41,4 @@
 web网页升级:只需要访问模块的ip地址+iweb.html(例如：http://192.168.123.184/iweb.html),就可以打开升级页面，选择第一项Upgrade application，浏览文件选择“XXX_upgrade.bin”文件，点击Upload
 即可，传输成功会返回：Update successful !
 
-<img src="https://github.com/linlyv/TC1_A2/blob/master/doc/webup.jpg" width="540">
+<img src="./doc/webup.jpg" width="540">
