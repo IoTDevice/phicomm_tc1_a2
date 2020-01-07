@@ -30,10 +30,12 @@
 ### 3.配网
 
 使用[云易连](https://github.com/OpenIoTHub/OpenIoTHub)app配网
-
+<img src="./doc/addDevice.jpg" width="540">
 ### 4.app控制
 使用云易连APP（OPenIoTHub），直接云易连添加设备，app配网自动发现[OpenIoTHub](https://github.com/OpenIoTHub/OpenIoTHub)。
-
+<img src="./doc/deviceList.jpg" width="540">
+<img src="./doc/UI.jpg" width="540">
+<img src="./doc/info.jpg" width="540">
 ### 5.固件升级
 
 串口升级和web网页升级
