@@ -13,7 +13,7 @@
 
 <img src="./doc/lpt230.jpg" width="540" >
 > 图1 要接线的点（用到的点）
-
+<img src="./doc/lpt230link.jpg" width="540" >
 
 ### 2.烧录固件
 
