@@ -8,5 +8,6 @@ addons:
     packages:
     - gcc-arm-none-eabi
     - build-essential
+    - libc6-dev
 script:
 - make
