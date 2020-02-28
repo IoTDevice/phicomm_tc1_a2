@@ -9,5 +9,6 @@ addons:
     - gcc-arm-none-eabi
     - build-essential
     - libc6-dev
+    - libnewlib-arm-none-eabi
 script:
 - make
