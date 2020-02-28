@@ -1,0 +1,11 @@
+os: linux
+language: c
+sudo: false
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - arm-none-eabi-gcc
+script:
+- make
