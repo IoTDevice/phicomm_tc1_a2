@@ -7,8 +7,6 @@ addons:
     - ubuntu-toolchain-r-test
     packages:
     - gcc-arm-none-eabi
-    - build-essential
-    - libc6-dev
     - libnewlib-arm-none-eabi
     - libstdc++-arm-none-eabi-newlib
 script:
