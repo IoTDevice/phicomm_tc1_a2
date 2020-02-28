@@ -10,5 +10,6 @@ addons:
     - build-essential
     - libc6-dev
     - libnewlib-arm-none-eabi
+    - libstdc++-arm-none-eabi-newlib
 script:
 - make
