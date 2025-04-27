@@ -17,12 +17,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install Flutter dependencies
+      - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pkg-config cmake ninja-build gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
+          sudo apt-get install -y arm-none-eabi-* pkg-config cmake ninja-build gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
 
-      - name: Build Flutter linux version
+      - name: Build
         working-directory: ${{ github.workspace }}
         run: |
           make
